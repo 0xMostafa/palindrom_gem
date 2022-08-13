@@ -1,12 +1,8 @@
 require "palindrome/version"
 
-module Palindrome
-  class Error < StandardError; end
-  # Your code goes here...
-  #
-  class String
-    def palindrome?(string)
-      self == self.reverse
-    end
+class String
+  def palindrome?
+    letters = scan(/[a-zA-Z]/).join("").downcase
+    letters == letters.reverse
   end
 end
