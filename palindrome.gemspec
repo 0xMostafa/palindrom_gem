@@ -1,7 +1,7 @@
 require_relative 'lib/palindrome/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "palindrome"
+  spec.name          = "palindrome_gem"
   spec.version       = Palindrome::VERSION
   spec.authors       = ["Mostafa ElGendi"]
   spec.email         = ["mielguindi@gmail.com"]
